@@ -20,7 +20,7 @@ import {StatusBar} from 'ionic/ionic';
     </div>
     <div>
       <div>
-        <input [(ng-model)]="colorHex">
+        <input [(ngModel)]="colorHex">
       </div>
       <button primary outline (click)="setColor()">Set Color</button>
     </div>

@@ -3,10 +3,10 @@
     Description
   </ion-title>
   <ion-buttons start>
-    <button (click)="close()" *ng-if=" currentPlatform === 'ios' ">
+    <button (click)="close()" *ngIf=" currentPlatform === 'ios' ">
       Cancel
     </button>
-    <button (click)="close()" *ng-if=" currentPlatform === 'android' ">
+    <button (click)="close()" *ngIf=" currentPlatform === 'android' ">
       <icon close></icon>
     </button>
   </ion-buttons>

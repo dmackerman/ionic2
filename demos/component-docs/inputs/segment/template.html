@@ -7,7 +7,7 @@
 </ion-navbar>
 
 <ion-toolbar [attr.primary]="isAndroid ? '' : null">
-  <ion-segment [(ng-model)]="pet">
+  <ion-segment [(ngModel)]="pet">
     <ion-segment-button value="puppies">
       Puppies
     </ion-segment-button>
@@ -17,7 +17,7 @@
     <ion-segment-button value="ducklings">
       Ducklings
     </ion-segment-button>
-  </ion-segment> 
+  </ion-segment>
 </ion-toolbar>
 
 
@@ -28,7 +28,7 @@
   </div>  -->
 
   <div [ng-switch]="pet">
-    <ion-list *ng-switch-when="'puppies'">
+    <ion-list *ngSwitchWhen="'puppies'">
       <ion-item>
         <ion-thumbnail item-left>
           <img src="img/thumbnail-puppy-1.jpg">
@@ -55,7 +55,7 @@
       </ion-item>
     </ion-list>
 
-    <ion-list *ng-switch-when="'kittens'">
+    <ion-list *ngSwitchWhen="'kittens'">
       <ion-item>
         <ion-thumbnail item-left>
           <img src="img/thumbnail-kitten-1.jpg">
@@ -82,7 +82,7 @@
       </ion-item>
     </ion-list>
 
-    <ion-list *ng-switch-when="'ducklings'">
+    <ion-list *ngSwitchWhen="'ducklings'">
       <ion-item>
         <ion-thumbnail item-left>
           <img src="img/thumbnail-duckling-1.jpg">
@@ -110,5 +110,5 @@
     </ion-list>
   </div>
 
-  
-</ion-content> 
+
+</ion-content>

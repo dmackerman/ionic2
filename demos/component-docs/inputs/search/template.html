@@ -5,10 +5,10 @@
 </ion-navbar>
 
 <ion-content>
-  <ion-searchbar [(ng-model)]="searchQuery"></ion-searchbar>
+  <ion-searchbar [(ngModel)]="searchQuery"></ion-searchbar>
   <ion-list #list>
     <ion-item *ng-for="#item of getItems()">
       {{item}}
     </ion-item>
   </ion-list>
-</ion-content> 
+</ion-content>
