@@ -36,7 +36,7 @@ import {IONIC_DIRECTIVES} from '../directives';
  * In this case, you would add `IONIC_DIRECTIVES` to your directives array.
  *
  * ```ts
- * import {IONIC_DIRECTIVES} from 'ionic/ionic';
+ * import {IONIC_DIRECTIVES} from 'ionic-framework/ionic';
  * @Component({
  *   selector: 'my-component'
  *   template: `<div class="my-style">
@@ -50,7 +50,7 @@ import {IONIC_DIRECTIVES} from '../directives';
  * Alternatively, you could:
  *
  * ```ts
- * import {Checkbox, Icon} from 'ionic/ionic'
+ * import {Checkbox, Icon} from 'ionic-framework/ionic'
  * ```
  *
  * along with any other components and add them individually:

@@ -1,5 +1,5 @@
-import {App, Page, Config, Platform} from 'ionic/ionic';
-import {Modal, ActionSheet, NavController, NavParams, Animation} from 'ionic/ionic';
+import {App, Page, Config, Platform} from 'ionic-framework/ionic';
+import {Modal, ActionSheet, NavController, NavParams, Animation} from 'ionic-framework/ionic';
 
 
 @App({

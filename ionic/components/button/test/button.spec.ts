@@ -1,4 +1,4 @@
-import {Button, Config} from 'ionic/ionic';
+import {Button, Config} from 'ionic-framework/ionic';
 
 export function run() {
 

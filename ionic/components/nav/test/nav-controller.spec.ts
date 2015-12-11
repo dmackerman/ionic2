@@ -3,7 +3,7 @@ import {
   Config,
   Page,
   ViewController
-} from 'ionic/ionic';
+} from 'ionic-framework/ionic';
 
 
 export function run() {

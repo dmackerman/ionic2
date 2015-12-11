@@ -1,4 +1,4 @@
-import {App, IonicApp, Page, NavController, Popup} from 'ionic/ionic';
+import {App, IonicApp, Page, NavController, Popup} from 'ionic-framework/ionic';
 
 
 @Page({templateUrl: 'page1.html'})

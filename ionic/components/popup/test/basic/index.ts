@@ -1,4 +1,4 @@
-import {App, Popup} from 'ionic/ionic';
+import {App, Popup} from 'ionic-framework/ionic';
 
 
 @App({

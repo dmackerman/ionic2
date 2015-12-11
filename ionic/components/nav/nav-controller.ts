@@ -497,7 +497,7 @@ export class NavController extends Ion {
    *
    *
    *```typescript
-   * import {Page, NavController} from 'ionic/ionic'
+   * import {Page, NavController} from 'ionic-framework/ionic'
    * import {Detail} from '../detail/detail'
    * import {Info} from '../info/info'
    *
@@ -518,7 +518,7 @@ export class NavController extends Ion {
    *
    *
    *```typescript
-   * import {Page, NavController} from 'ionic/ionic'
+   * import {Page, NavController} from 'ionic-framework/ionic'
    * import {Detail} from '../detail/detail'
    * import {Info} from '../info/info'
    *
@@ -539,7 +539,7 @@ export class NavController extends Ion {
    *
    *
    *```typescript
-   * import {Page, NavController} from 'ionic/ionic'
+   * import {Page, NavController} from 'ionic-framework/ionic'
    * import {Detail} from '../detail/detail'
    * import {Info} from '../info/info'
    *

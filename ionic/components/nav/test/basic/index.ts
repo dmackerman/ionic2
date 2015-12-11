@@ -1,7 +1,7 @@
 import {Component} from 'angular2/core';
-import {App, NavController} from 'ionic/ionic';
-import {Page, Config, IonicApp} from 'ionic/ionic';
-import {NavParams, NavController, ViewController, IONIC_DIRECTIVES} from 'ionic/ionic';
+import {App, NavController} from 'ionic-framework/ionic';
+import {Page, Config, IonicApp} from 'ionic-framework/ionic';
+import {NavParams, NavController, ViewController, IONIC_DIRECTIVES} from 'ionic-framework/ionic';
 
 
 @Component({

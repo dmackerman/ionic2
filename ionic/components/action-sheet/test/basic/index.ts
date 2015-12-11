@@ -1,4 +1,4 @@
-import {App, ActionSheet} from 'ionic/ionic';
+import {App, ActionSheet} from 'ionic-framework/ionic';
 
 
 @App({

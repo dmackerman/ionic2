@@ -1,4 +1,4 @@
-  import {App, Page, NavController} from 'ionic/ionic';
+  import {App, Page, NavController} from 'ionic-framework/ionic';
 
 //
 // Tab 1

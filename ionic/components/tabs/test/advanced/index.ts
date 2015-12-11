@@ -1,6 +1,6 @@
 import {RouteConfig, Location} from 'angular2/router';
 
-import {App, Page, NavController} from 'ionic/ionic';
+import {App, Page, NavController} from 'ionic-framework/ionic';
 
 
 @Page({
